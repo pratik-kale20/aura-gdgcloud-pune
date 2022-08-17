@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site":"gdg-cloud-pune",
+    "site":"gdgcloudpune",
     "public": "dist",
     "rewrites": [ {
         "source": "**",
