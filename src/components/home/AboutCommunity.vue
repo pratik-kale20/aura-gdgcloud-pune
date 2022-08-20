@@ -18,6 +18,15 @@
               class="ma-0 google-font mb-2"
               style="border-radius:5px;text-transform: capitalize;color:white"
             >Meetup Page</v-btn>&nbsp;
+
+            <v-btn
+              href="https://gdg.community.dev/gdg-cloud-pune"
+              target="_blank"
+              outlined
+              color
+              class="ma-0 google-font mb-2"
+              style="border-radius:5px;text-transform: capitalize;color:white"
+            >Community Platform</v-btn>
             <br />
             <router-link
               to="/about"

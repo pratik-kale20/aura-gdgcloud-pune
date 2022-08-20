@@ -2,18 +2,15 @@
   <v-container fluid class="mb-1">
     <v-row align="center" justify="center" class>
       <v-col cols="12" md="12" lg="12" sm="12" class="mb-0">
-        <p class="google-font mb-0 mt-0" style="font-weight: 350;font-size:180%">
-          <b>
-            Our
-            <span style="color: #1a73e8;">Feature Event</span>
-            &
-            <span style="color: #1a73e8;">Meetup</span>
-          </b>
-        </p>
+        <p class="google-font mb-0" style="font-size:150%;color: #1a73e8;">Upcoming Events</p>
+        <p
+          class="google-font mt-0"
+          style="font-size:95%"
+        >Our events are open to newbies, developers, managers, and organizations who are interested in Google's technologies or use them as part of their projects. <br>Events are listed in reverse chronological order by date. </p>
         <p
           class="google-font mt-0 mb-0"
           style="font-size:95%"
-        >Events are listed in reverse chronological order by date.</p>
+        ></p>
       </v-col>
       <v-col cols="12" md="12" lg="12" sm="12" class="mt-0 pt-0 pa-0">
         <v-container fluid class="py-0 my-0">

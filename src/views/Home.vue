@@ -9,18 +9,18 @@
       </v-row>
     </v-container>
 
-    <v-container fluid class="pa-0 py-0 my-0" >
-      <v-row justify="center" align="center">
-        <v-col md="12" sm="11" lg="10" xs="12" class="py-0" :class="this.$vuetify.theme.dark == true?'darkModeContainer':'lightModeContainer'">
-          <whatwedo />
-        </v-col>
-      </v-row>
-    </v-container>
-
     <v-container fluid class="pa-0 pt-5 my-0" >
       <v-row justify="center" align="center" style="background:#4C4A78" class="py-5 my-0">
         <v-col md="12" lg="10" sm="11" xs="12" class="py-0" >
           <AboutCommunity />
+        </v-col>
+      </v-row>
+    </v-container>
+
+    <v-container fluid class="pa-0 py-0 my-5" >
+      <v-row justify="center" align="center">
+        <v-col md="12" sm="11" lg="10" xs="12" class="py-0" :class="this.$vuetify.theme.dark == true?'darkModeContainer':'lightModeContainer'">
+          <whatwedo />
         </v-col>
       </v-row>
     </v-container>
@@ -37,6 +37,7 @@
       <v-row justify="center" align="center" class="py-5" :class="this.$vuetify.theme.dark == true?'grey darken-4':'grey lighten-4'">
         <v-col md="12" sm="11" lg="10" xs="12" class="py-0">
           <featureEvents />
+         
         </v-col>
       </v-row>
     </v-container>

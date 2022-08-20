@@ -65,11 +65,11 @@ export default {
         to: "/schedule",
         icon: "mdi-television-guide"
       },
-      {
-        text: "Partners",
-        to: "/partners",
-        icon: "mdi-currency-usd"
-      },
+      // {
+      //   text: "Partners",
+      //   to: "/partners",
+      //   icon: "mdi-currency-usd"
+      // },
       {
         text: "Team",
         to: "/team",
